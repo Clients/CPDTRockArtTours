@@ -17,14 +17,15 @@ article{
   min-height: 650px;
 }
 .hp-form{
-  margin-top: 100px;
-}
+  margin-top: 300px;
 
+  overflow: hidden;
+}
 .guide{
   min-height: 1200px;
   border-left: 2px solid #ddd;
   border-right: 2px solid #ddd;
-  background: url("../images/jayne.jpg") no-repeat 5% 100%;
+  background: url("../images/jayne.jpg") no-repeat 50% 50%;
   background-attachment: fixed;
   background-size: contain;
 
