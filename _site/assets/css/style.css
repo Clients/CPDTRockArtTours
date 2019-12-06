@@ -1,0 +1,97 @@
+/*body {
+  padding-top: 5rem;
+}*/
+
+body {
+  background-color: /*#D1D2C5;*/ #DFD3C3;
+  color: #000;
+  overflow-x: hidden;
+}
+article{
+  margin-top: 75px;
+  min-height: 650px;
+}
+.hp-form{
+  margin-top: 150px;
+}
+
+.guide{
+  min-height: 1200px;
+  border-left: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+  background: url("/assets/images/jayne.jpg") no-repeat 5% 100%;
+  background-attachment: fixed;
+  background-size: contain;
+
+  overflow-y: hidden;
+}
+/* Footer */
+.wn-footer {
+  padding: 2rem 0;
+  /*text-align: center;*/
+  color: white;
+  background-color: #607D8B;
+  /*border-top: .05rem solid #e5e5e5;*/
+}
+
+.wn-footer a {
+color: #814045;
+}
+
+.bg-blue{
+  background-color: #45525A;
+}
+
+.booking{
+  background-color: #814045;
+}
+.SW6183{
+  background-color: #D1D2C5;
+}
+/********************************/
+/* Header Parallax Element Style*/
+.paral {
+  /*min-height: 200px;*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* Paragraph for Parallax Section */
+.paral p {
+  font-size: 20px;
+  color: /*#f5f5f5;*/ #422721;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+  color: /*rgba(255, 255, 255, 0.8);*/ #B85340;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 5px;
+  line-height: 100px;
+}
+/* Image for Parallax Section */
+.paralsec1 {
+  min-height: 400px;
+  max-height: 600px;
+  /*background-image: url("/assets/images/Waving-Hands-Margaret-Slaugh-2019.jpg");*/
+}
+
+.paralsec2 {
+  background-image: url("/assets/images/four-mile-canyon.jpg");
+}
+
+.paralsec3 {
+  background-image: url("/assets/images/CPDT-Map.jpg");
+}
+.paralsec4 {
+  min-height: 600px;
+  background-image: url("/assets/images/Waving-Hands-Margaret-Slaugh-2019.jpg");
+}
+
+/* Add more images for more sections */
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+/********************************/
