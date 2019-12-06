@@ -2,6 +2,11 @@
   padding-top: 5rem;
 }*/
 
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 body {
   background-color: /*#D1D2C5;*/ #DFD3C3;
   color: #000;
