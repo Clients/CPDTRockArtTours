@@ -24,7 +24,7 @@ article{
   min-height: 1200px;
   border-left: 2px solid #ddd;
   border-right: 2px solid #ddd;
-  background: url("/assets/images/jayne.jpg") no-repeat 5% 100%;
+  background: url("../images/jayne.jpg") no-repeat 5% 100%;
   background-attachment: fixed;
   background-size: contain;
 
@@ -85,15 +85,15 @@ color: #814045;
 }
 
 .paralsec2 {
-  background-image: url("/assets/images/four-mile-canyon.jpg");
+  background-image: url("../images/four-mile-canyon.jpg");
 }
 
 .paralsec3 {
-  background-image: url("/assets/images/CPDT-Map.jpg");
+  background-image: url("../images/CPDT-Map.jpg");
 }
 .paralsec4 {
   min-height: 600px;
-  background-image: url("/assets/images/Waving-Hands-Margaret-Slaugh-2019.jpg");
+  background-image: url("../images/Waving-Hands-Margaret-Slaugh-2019.jpg");
 }
 
 /* Add more images for more sections */
