@@ -17,20 +17,47 @@ article{
   min-height: 650px;
 }
 .hp-form{
-  margin-top: 300px;
-
-  overflow: hidden;
+  margin-top: 25px;
 }
-.guide{
-  min-height: 1200px;
-  border-left: 2px solid #ddd;
-  border-right: 2px solid #ddd;
-  background: url("../images/jayne.jpg") no-repeat 50% 50%;
-  background-attachment: fixed;
-  background-size: contain;
 
-  overflow-y: hidden;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hp-form{
+    margin-top: 125px;
+    position: fixed;
+  }
+  .guide{
+    min-height: 1200px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    background-image: url("../images/jayne.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+  }
 }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hp-form{
+    margin-top: 12%;
+    position: fixed;
+  }
+  .guide{
+    min-height: 1200px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    background-image: url("../images/jayne.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+  }
+}
+
 /* Footer */
 .wn-footer {
   padding: 2rem 0;
@@ -75,7 +102,7 @@ color: #814045;
   color: /*rgba(255, 255, 255, 0.8);*/ #B85340;
   font-size: 60px;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 40px;
   line-height: 100px;
 }
 /* Image for Parallax Section */
