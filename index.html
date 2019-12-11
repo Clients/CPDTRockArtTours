@@ -2,13 +2,107 @@
 layout: default
 ---
 
-<section class="homepage">
-  <div class="container-fluid guide">
-    <div class="row hp-form">
-      <div class="col-md-45 offset-md-1">
-          {% include Schedule-Tour.html %}
+  {% include carousel.html %}
 
+
+<main id="content" role="main" class="container-fluid m-0 p-0">
+
+  <!-- First Parallax Section -  -->
+  <div class="paral paralsec1 border-top border-bottom border-dark">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h1 class="display-3">{{site.title}}</h1>
+
+        <p class="lead">We are based in Rangely Co and are apart of the <a href="https://en.wikipedia.org/wiki/Uinta_Basin" title="Overview of the Uinta Basin" target="_blank">Uinta Basin</a>
+        and the <a href="" title="Dinosaur Diamond Scenic Byway" target="_blank">Dinosaur Diamond</a>. The tours will take you back in time to a place, not so long ago,
+        where Native Indians once lived before that land gave way to family farms and one-room schoolhouses.</p>
+
+        <p>Your guide is one of a few folks left that have personal stories about growing up in the Colorado wild west. She will tell
+        you stories, behind the petroglyphs and ghost towns, that have been pass down through the ages around campfires and thanksgiving
+        tables. Stories that come from personal family history of the area and growing up in rural America.</p>
+
+        <p><a href="{{site.baseurl}}/guided-tours" title="Take a guied tour" class="btn btn-lg btn-danger">Learn the unique hidden history of Colorado.</a></p>
       </div>
     </div>
   </div>
-<section>
+
+  <!-- Second Parallax Section - CTA -->
+  <div class="paral paralsec2">
+    <div class="d-flex justify-content-around">
+      <div class="py-5 ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Canyon Pintado</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Canyon Pintado</text></svg>
+                <div class="card-body bg-blue">
+                  <p class="card-text">Canyon Pintado (Painted Canyon) has been occupied by prehistoric people for as long as 11,000 years and was repeatedly visited
+                  by a variety of cultures throughout its long history.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-danger">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Dragon Trail</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Dragon Trail</text></svg>
+                <div class="card-body  bg-blue">
+                  <p class="card-text">Head out on Dragon Trail to local ghost towns, that were once thriving cities, and
+                  you will see petroglyphs that have endured thousands of years and hold a history of their own.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-danger">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Trail Canyon Ranch</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Trail Canyon Ranch</text></svg>
+                <div class="card-body  bg-blue">
+                  <p class="card-text">For the adventure inside us all there is a quite place tucked away in mountias of Rangely Colorado that will take you back in time to a place filled with the spirit of the America West.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-danger">View</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Parallax Section - Book Tour -->
+  <div class="paralsec3 border-top border-bottom border-dark">
+    <div class="row">
+      <div class="col-md-9 offset-md-3">
+        {% include Schedule-Tour.html %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Fourth Parallax Section - map -->
+  <!-- <div class="paral paralsec4">
+    <h1 class="display-3">Here is a heading 3</h1>
+    <p class="lead">Here is a short description 2</p>
+    <p class="lead">
+    <a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
+    </p>
+  </div> -->
+
+  <!-- Add More Parallax Sections Here -->
+
+</main><!-- /.container -->
