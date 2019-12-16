@@ -12,6 +12,11 @@ article{
   margin-top: 75px;
   min-height: 650px;
 }
+.card-title.hp{
+  background-color: #698ca2;
+  color: #ffffff;
+  margin-bottom:  0;
+}
 .hp-form{
   margin-top: 25px;
 }
