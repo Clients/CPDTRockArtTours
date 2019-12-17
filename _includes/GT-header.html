@@ -1,17 +1,24 @@
 <div class="shadow-lg p-3 mb-5 bg-blue text-dark rounded mt-1">
-  <h2 class="text-center"><em>Spreading the word - Educating our children and neighbors</em></h2>
+  {% if page.title == "Trail Canyon Ranch" %}
+    <h2 class="text-center">"The Spirit of the American West."</h2>
 
-  <hr />
+    <hr />
 
-  <p class="px-5 text-justify">Our guided Rock Art tours are designed to help people feel connected to those who came to this
-  land before us and to feel a sense of ownership and stewardship in keeping the history alive for future generations.</p>
+    <p class="text-center mx-5 px-5">Come to this quiet corner of the world to enjoy the ruggeg natural beatuy of the outdoors with wildlife
+    viewing: <br />elk, deer, bear, wild horese, and various birds. </p>
 
-  <p class="px-5 text-justify">Sharing our love and appreciation of ancient art is beneficial in keeping the spirit of the Native
-  Americas alive and enables better management and protection of sites and brings more allies into the ranks of caretakers and
-  stewards. </p>
+  {% else %}
+    <h2 class="text-center"><em>Spreading the word - Educating our children and neighbors</em></h2>
 
-  <hr />
+    <hr />
 
-  <p class="small text-center">Enjoy and love these gifts from those who lived before us, and those who will live a hundred years from now.
-  So generations to come will be able to enjoy and love them as well.</p>
+    <p class="px-5 text-center">Guided Rock Art Tours are designed to share the love and appreciation of ancient rock art known as
+    petroglyphs. It is beneficial in preserving the history of Native Americans and promotes the management and protection of these
+    sites while bring more allies into the ranks of caretakers and stewards to keep the history alive for future generations.</p>
+
+    <hr />
+
+    <p class="small text-center">Enjoy and love these gifts from those who lived before us, and those who will live a hundred years from now.
+    So generations to come will be able to enjoy and love them as well.</p>
+  {% endif %}
 </div>
