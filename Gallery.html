@@ -1,0 +1,53 @@
+---
+layout: page
+title: Gallery
+image: jayne.jpg
+permalink: /gallery
+---
+<div class="col">
+  <div class="row  mb-5">
+    <div class="col-9">
+      {% include GT-header.html %}
+
+      <h1>{{page.title}}</h1>
+
+      <div class="row">
+        <div class="col">
+          <a href="{{site.baseurl}}/gallery/rock-art">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Rock Art</h5>
+              </div>
+              <img src="{{site.baseurl}}/assets/images/Gallery/DC-building-icon.jpg" class="card-img-top" alt="Rock Art">
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="{{site.baseurl}}/gallery/ghost-towns">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Ghost Towns</h5>
+              </div>
+              <img src="{{site.baseurl}}/assets/images/Gallery/DC-building-icon.jpg" class="card-img-top" alt="Ghost Towns">
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="{{site.baseurl}}/gallery/other">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Other</h5>
+              </div>
+              <img src="{{site.baseurl}}/assets/images/Gallery/DC-building-icon.jpg" class="card-img-top" alt="...">
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col border border-dirt border-top-0 border-right-0 border-bottom-0">
+      {% include GT-nav.html %}
+    </div>
+  </div>
+</div>
