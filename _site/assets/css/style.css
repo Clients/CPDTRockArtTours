@@ -102,6 +102,10 @@ color: #814045;
 .SW6183{
   background-color: #D1D2C5;
 }
+
+label{
+  color: #ccc;
+}
 /********************************/
 /* Header Parallax Element Style*/
 .paral {
