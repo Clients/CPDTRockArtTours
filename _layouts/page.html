@@ -19,6 +19,9 @@
             <div class="col-6 ml-2">
               <p>Name: Jayne Kuck</p>
               <p>Phone: (970) 675-3033</p>
+              {% unless page.title == "Contact Us" %}
+                <p>Email: <a href="{{site.url}}/contact" rel="nofollow">For more Information</a></p>
+              {% endunless %}
             </div>
             <div class="col-5">
               <p><a href="https://guidedrockarttours.youcanbook.me/" data-ycbm-modal="true" class="btn btn-md btn-info" rel="nofollow">Schedule Guided <br /> Rock Art Tour</a></p>
